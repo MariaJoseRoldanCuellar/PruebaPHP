@@ -2,52 +2,86 @@
 <html lang="esp">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="style.css">
-    <title>proyecto PHP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepasoHTML</title>
 </head>
 <body>
-    <div id="container">
-     <header id="header">
-         <h2>Encabezado</h2>
-     </header>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="#">Categoria 1</a>
-                </li>
-                <li>
-                    <a href="#">Categoria1</a>
-                </li>
-                <li>
-                    <a href="#">Categoria1</a>
-                </li>
-                 <li>
-                    <a href="#">Categoria1</a>
-                </li>
-            
-            </ul>
-        </nav>
-        <div id="content">
-            <aside id="lateral">
-                <h2>lateral</h2>
-            </aside>
-            <div id="central">
-                <h2>central</h2>
-                <div class="product">
-                    <h2>producto</h2>
-                    <p>
-                        100pesos
-                    </p>
-                </div>
-            </div>
-        </div>
-        <footer id="footer">
-            <h2>footer</h2>
-        </footer> 
-    </div>
+    <h1>inicio</h1>
+    <h2>Vinetas</h2>
+    <ul>
+        <li>
+            <a href="#">inicio</a>
+        </li>
+        <li>
+            <a href="#">Contacto</a>
+        </li>
+    </ul>
+    <ol>
+        <li>Mercedes</li>
+        <li>ferrari</li>
+        <li>BMW</li>
+        <li>Audi</li>
+    </ol>
+    <h2>Tables</h2>
+    <table border="1">
+        <tr>
+            <td>Nombres</td>
+            <td>Apellidos</td>
+            <td>Correo</td>
+            <td>Contraseña</td>
+        </tr>
+        <tr>
+            <td>majo</td>
+            <td>Roldan</td>
+            <td>mroldan@gmail.com</td>
+            <td>123</td>
+        </tr>
+        <tr>3
+            <td>Mateo</td>
+            <td>Duque</td>
+            <td>mduqe@gmail.com</td>
+            <td>456</td>
+        </tr>
+        <tr>
+            <td>Yasmin</td>
+            <td>Cuellar</td>
+            <td>ycuellar@gmail.com</td>
+            <td>789</td>
+        </tr>
+    </table>
+    <h2>Formularios</h2>
+    <form action="#">
+        <h3>Botones de radio</h3>
+        <label for="#">
+            <input type="radio">Interior
+        </label>
+        <label for="#">
+            <input type="radio">Exterior
+        </label>
+
+        <h3>Cailla de veificacion</h3>
+        <label for="#"> <input type="checkbox">Perros</label>
+        <label for="#"> <input type="checkbox">Gatos</label>
+        <label for="#"> <input type="checkbox">Otros</label>
+
+        <h3>Campos de un fprmulario</h3>
+        <label for="#">entre su nombre</label>
+        <input type="text" placeholder="nombre" required><br>
+        <label for="#">entre su apellido</label>
+        <input type="text" placeholder="apellido" required><br>
+        <label for="#">entre su contraseña</label>
+        <input type="password" placeholder="Contraseña" required><br>
+        <label for="#">entre su Correo</label>
+        <input type="email" placeholder="Correo" required><br>
+
+        <input type="submit" value="Grabar"><br>
+        
+        <select>
+            <option value="Mujer"> Mujer </option>
+            <option value="Hombre">Hombre</option>
+        </select>
+        
+        
+    </form>
 </body>
 </html>
