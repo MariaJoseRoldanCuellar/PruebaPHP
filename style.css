@@ -14,7 +14,7 @@ body {
 }
 #header {
   height: 145px;
-  background-color: rgb(236, 171, 222);
+  background-color: rgb(247, 147, 225);
   color: white;
   text-align: center;
   line-height: 100px;
@@ -29,10 +29,10 @@ body {
   height: 100px;
 }
 #menu {
-    background-color: rgb(188, 124, 190);
+    background-color: rgb(211, 107, 176);
     color: white;
     height: 50px;
-    border-bottom: 4px solid rgb(153, 64, 149);
+    border-bottom: 4px solid rgb(202, 69, 173);
 }
 
 #menu ul{
@@ -44,7 +44,7 @@ body {
 #menu ul li{
     line-height: 55px;
     float: left;
-    border-right: 1px solid rgb(139, 70, 124);
+    border-right: 1px solid rgb(219, 139, 202);
 }
 #menu a{
     display: block;
@@ -56,5 +56,16 @@ body {
 #menu a:hover{
     background: rgb(158, 91, 144);
 }
-=======
->>>>>>> 85f1d8564cc99cb0166282e1120243fa9d42340c
+#content{
+  margin:0px auto;
+  background: white;
+}
+/* barra lateral */
+#lateral{
+  width: 20%;
+  border: 1px solid rgb(134, 37, 54);
+}
+#central{
+  width: 80%;
+  border: 1px solid black;
+}
