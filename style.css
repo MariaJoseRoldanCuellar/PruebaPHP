@@ -127,7 +127,7 @@ input[type="button"],
 }
 #central{
   width: 80%;
-  min-height: 650px;
+  min-height: 600px;
   float: right;
   /*border: 1px solid rgb(221, 92, 182);*/
   border-left: 1px solid rgb(231, 160, 172);
@@ -153,15 +153,24 @@ input[type="button"],
   margin-right: 10px;
   margin-bottom: 30px;
   text-align: center;
+  color: white;
 }
 .product img{
   height: 150px;
   margin-bottom: 10px;
 }
 .product a{
-  color: rgb(253, 253, 253);
+  color: rgb(206, 194, 194);
   text-decoration: none;
 }
 .product a:hover{
   color: rgb(163, 71, 143);
+}
+#footer{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(197, 95, 175);
+  color: white;
+  border-top: 5px solid rgb(187, 67, 167);
 }
