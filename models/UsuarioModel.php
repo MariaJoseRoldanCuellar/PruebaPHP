@@ -1,7 +1,8 @@
 <?php
 require_once 'config/database.php';
 
-class Usaurio{
+class Usuario
+{
     public $db;
     public function __construct(){
         $this->db= database::conectar();
@@ -17,7 +18,7 @@ class Usaurio{
     public $imagen;
 
 
-  function getID_usuario()
+    function getID_usuario()
     {
 
     return $this->id_usuario;
@@ -67,5 +68,8 @@ class Usaurio{
    function setImagen($imagen){
     $this->imagen=$imagen;
    }
-}
 
+ public function conseguirTodos(){
+  echo "Imprimiendo todos los Usuarios...";
+ }
+}
